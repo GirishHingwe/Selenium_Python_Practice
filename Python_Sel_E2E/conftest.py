@@ -4,6 +4,7 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.firefox import options
 from selenium.webdriver.firefox.service import Service as FirefoxService
 
 driver = None
