@@ -25,3 +25,6 @@ def is_prime(number):
 
 print(is_prime(4))
 print(is_prime(3331))
+print(is_prime(1))
+print(is_prime(331))
+print(is_prime(10))
