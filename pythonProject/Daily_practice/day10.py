@@ -71,4 +71,5 @@ def encode(data):
     print(result)
 
 encode('aaaabbbbccccdddee')
+encode('asasasasad')
 
