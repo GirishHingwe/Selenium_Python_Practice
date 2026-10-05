@@ -43,3 +43,25 @@ def unic(data):
     print(result)
 
 unic('we-qe, -w,we-,q-we, q,weq ,')
+
+
+#list = [2,3,523,5,3452,66]
+#list sort asc
+#list of element last pick
+
+def second_highest(data):
+    c_max = data[0]
+    p_max = 0
+    for i in range(1,len(data)):
+        if data[i] > c_max:
+            p_max = c_max
+            c_max = data[i]
+        if data[i] < c_max and data[i] > p_max:
+            p_max = data[i]
+    return p_max
+
+data = [2,3,523,5,3452,66]
+print(second_highest(data))
+# data.sort()
+# print(data[-2])
+
