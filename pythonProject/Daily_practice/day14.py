@@ -64,7 +64,8 @@ for i in data_str:
     print(i)
 for i in range(0,len(arr)):
     print(arr[i])
-
+for y in arr_str:
+    print(y)
 
 mp_data = {}
 # print(type(mp_data))
