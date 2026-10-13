@@ -24,4 +24,7 @@ python3 logger.py >> test.log  # console output redirect to output file
 ping google.com  #fqdn is reachable or not
 
 
+grep -R 'data/word search'  # search in current project directory for word or sentence
+
+
 
